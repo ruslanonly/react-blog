@@ -1,0 +1,25 @@
+.navbar {
+  & {
+    margin: auto;
+    padding: 1rem 0
+  }
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+
+    a {
+      color: var(--blue-500);
+      font-weight: bold;
+      text-decoration: none;
+
+    }
+  }
+}
